@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información de Pokémon</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Información de Pokémon</h1>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="pokemonInput" placeholder="Ingresa el nombre de un Pokémon">
+      <div class="input-group-append">
+        <button class="btn btn-primary" id="searchBtn">Buscar</button>
+      </div>
+    </div>
+    <div id="pokemonInfo" class="row justify-content-center">
+      <!-- La información del Pokémon se mostrará aquí -->
+    </div>
+  </div>
+ 
+  <script src="artist_api.js"></script>
+</body>
+</html>
